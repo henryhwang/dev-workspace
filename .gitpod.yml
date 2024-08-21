@@ -1,8 +1,5 @@
 image:
   file: .gitpod.Dockerfile
-tasks:
-  - name: install debian packages
-    command: sudo apt update && sudo apt install git
 ports:
   - port: 8080
   - port: 8443
